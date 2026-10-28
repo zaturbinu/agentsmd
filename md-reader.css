@@ -1,0 +1,10 @@
+body.md-reader { font-family: Arial; }
+body.md-reader .md-reader__body .md-reader__markdown-content ul li { list-style: disclosure-closed; }
+body.md-reader .md-reader__body .md-reader__markdown-content code, body.md-reader .md-reader__body .md-reader__markdown-content pre {
+  font-family: Courier New,monospace;
+}
+body.md-reader .md-reader__body .md-reader__markdown-content code {
+  background: transparent;
+  color: #0099CC;
+  font-weight: bold;
+}

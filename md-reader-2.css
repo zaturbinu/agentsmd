@@ -1,0 +1,24 @@
+body.md-reader { font-family: Arial; }
+body.md-reader .md-reader__body .md-reader__markdown-content ul li { list-style: disclosure-closed; }
+body.md-reader .md-reader__body .md-reader__markdown-content code, body.md-reader .md-reader__body .md-reader__markdown-content pre {
+  font-family: Courier New,monospace;
+}
+body.md-reader .md-reader__body .md-reader__markdown-content code {
+  overflow-x: auto;
+  font-size: .8rem;
+  word-break: break-word;
+  padding: .065em .4em;
+  border-radius: 6px;
+  background: #fff;
+  background-color: rgb(255, 255, 255);
+  color: #0093ff;
+  border: 1px solid #ccc;
+  cursor: help;
+  display: inline;
+  background-color: #EEF3F6;
+  color: #333 !important;
+  border: 1px solid #BFD4DF;
+  border-radius: 4px;
+  padding: 2px 6px;
+  text-decoration: none;
+}
